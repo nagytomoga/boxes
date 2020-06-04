@@ -1,0 +1,29 @@
+.up div, .down div {
+    width: 50px;
+    height: 50px;
+    display: inline;
+} 
+.up div{
+    background-color: #856df1;
+}
+.down div{
+    background-color:purple;
+}
+.up, .down {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    padding: 20px;
+    margin: 10px auto;
+}
+.up {
+    border: 2px solid #856df1;
+}
+.down {
+    border: 2px solid #856df1;
+    background-color: tomato;
+}
+
+.boxes {
+    margin: 50px;
+}
